@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>⚡Calculator</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <!-- Importing font Montserrat -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <script type="text/javascript"src="main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <button class="backButton" id="backButton" onclick="back()">&larr;</button>
+            <input class="result" id="result" placeholder="" onchange="isInputEmpty(this)">
+            <div class="buttons">
+                    <button class="button" value="7" onclick="addInput(this)">7</button>
+                    <button class="button" value="8" onclick="addInput(this)">8</button>
+                    <button class="button" value="9" onclick="addInput(this)">9</button>
+                    <button class="button actions" value="/" onclick="addInput(this)">&divide;</button>
+
+                    <button class="button" value="4" onclick="addInput(this)">4</button>
+                    <button class="button" value="5" onclick="addInput(this)">5</button>
+                    <button class="button" value="6" onclick="addInput(this)">6</button>
+                    <button class="button actions" value="*" onclick="addInput(this)">&times;</button>
+
+                    <button class="button" value="1" onclick="addInput(this)">1</button>
+                    <button class="button" value="2" onclick="addInput(this)">2</button>
+                    <button class="button" value="3" onclick="addInput(this)">3</button>
+                    <button class="button actions" value="-" onclick="addInput(this)">&minus;</button>
+
+                    <button class="button" value="." onclick="addInput(this)">.</button>
+                    <button class="button" value="0" onclick="addInput(this)">0</button>
+                    <button class="button equals" onclick="showResult()">&equals;</button>
+                    <button class="button actions" value="+" onclick="addInput(this)">&plus;</button>
+            </div>
+        </div>
+        
+    </body>
+</html>
