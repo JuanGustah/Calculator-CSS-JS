@@ -10,6 +10,6 @@ To summarize the basic web study, I decided to create this project to file it fo
 
 To use it,choose a folder where it will be cloned or repository, open the / cmd terminal and use the * git * command below:
 ```
-git clone https://github.com/projetoestoque/projetoestoquelaravel.git
+git clone https://github.com/JuanGustah/Calculator-CSS-JS.git
 ```
 After that,open the index.html with the browser of your choice.
